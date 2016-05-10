@@ -1,5 +1,5 @@
 .body {
-	background: url(../img/black.jpg) no-repeat center center fixed;
+	background: #404040;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,29 +9,40 @@
 .title {
 	margin-top: 130px;
 	font-size: 60px;
+  color: wheat;
 }
 
 .title-sub {
 	margin-top: 20px;
 	font-size: 20px;
+  color: wheat;
 }
 
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+#nav {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #404040;
+  text-align: center;
 }
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+
+#nav li {
+  display: inline-block;
 }
-.parallax__layer--base {
-  transform: translateZ(0);
+
+a {
+  display: block;
+  color: wheat;
+  font-size: 30px;
+  padding: 10px 80px;
+  text-decoration: none;
 }
-.parallax__layer--back {
-  transform: translateZ(-1px);
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
 }
