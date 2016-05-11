@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 .body {
   background: #404040;
   -webkit-background-size: cover;
@@ -34,4 +36,25 @@ li a:hover {
 .active {
   background-color: #705050;
   color: #404040;
+}
+
+.pic {
+  position: center;
+  top: -4px;
+  width: 200px;
+  height: 200px;
+}
+
+#center {
+  margin: 75px;
+  text-align: center;
+}
+
+.intro p {
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: wheat;
+  text-weight: bold;
+  font-size: 20px;
 }
