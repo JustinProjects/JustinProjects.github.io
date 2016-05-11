@@ -13,8 +13,8 @@ body {
 }
 
 .footer {
-  height: 450px;
-  background: url(../img/background.jpg) center center;
+  height: 650px;
+  background-color: #BDBDBD;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -115,6 +115,11 @@ h3 {
   text-align: center;
   font-size: 40px;
   font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #404040;
+
 }
 
 .intro {
@@ -126,5 +131,40 @@ h3 {
   margin-bottom: 40px;
 }
 
+.proj1 {
+  text-align: center;
+  margin-top: 2px;
+}
+
+a.game {
+  color: white;
+}
+
+.proj1-sub {
+  text-align: center;
+  margin-top: -60px;
+  text-transform: uppercase;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: sans-serif;
+}
+
+.u {
+  max-width: 780px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.unity {
+  order: 1;
+  margin-right: 40px;
+}
+
+.unity2 {
+  order: 2;
+  margin-left: 40px;
+}
 
 
