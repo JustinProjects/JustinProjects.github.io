@@ -1,21 +1,9 @@
 .body {
-	background: #404040;
-	-webkit-background-size: cover;
+  background: #404040;
+  -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.title {
-	margin-top: 130px;
-	font-size: 60px;
-  color: wheat;
-}
-
-.title-sub {
-	margin-top: 20px;
-	font-size: 20px;
-  color: wheat;
 }
 
 #nav {
