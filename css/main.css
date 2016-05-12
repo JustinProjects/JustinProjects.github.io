@@ -14,14 +14,20 @@ body {
 
 .footer {
   height: 650px;
+  background: url(../img/background.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.p {
+  height: 750px;
   background-color: #BDBDBD;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
 }
 
 .title {
