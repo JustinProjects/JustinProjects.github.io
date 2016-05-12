@@ -214,4 +214,16 @@ a.game {
   margin-bottom: 5px;
 }
 
+.coursework {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: sans-serif;
+}
+
+.interests {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  font-family: sans-serif;
+}
 
