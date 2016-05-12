@@ -91,6 +91,9 @@ h3 {
   margin: 0 auto;
   align-items: center;
   justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -o-justify-content: space-around;
 }
 
 .face {
