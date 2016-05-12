@@ -89,6 +89,7 @@ h3 {
   text-align: center;
   color: #404040;
   font-family: sans-serif;
+  margin-top: 40px;
 }
 
 .face-lockup {
@@ -224,7 +225,7 @@ a.game {
 .interests {
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   font-family: sans-serif;
 }
 
