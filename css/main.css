@@ -166,6 +166,7 @@ a.game {
 
 .u {
   display: flex;
+  display: -webkit-flex;
   margin: 0 auto;
   align-items: center;
   -webkit-align-items: center;
