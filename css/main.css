@@ -165,7 +165,6 @@ a.game {
 }
 
 .u {
-  max-width: 650px
   display: flex;
   display: -webkit-flex;
   margin: 0 auto;
@@ -178,13 +177,11 @@ a.game {
 }
 
 .unity {
-  max-width: 200px;
   order: 1;
   -webkit-order: 1;
 }
 
 .unity2 {
-  max-width: 200px;
   order: 2;
   -webkit-order: 2;
 }
