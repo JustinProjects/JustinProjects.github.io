@@ -165,7 +165,7 @@ a.game {
 }
 
 .u {
-  min-width: 640px
+  min-width: 600px
   display: flex;
   display: -webkit-flex;
   margin: 0 auto;
