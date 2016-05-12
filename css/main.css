@@ -178,7 +178,7 @@ a.game {
 }
 
 .unity {
-  max-width: 300px;
+  min-width: 300px;
   order: 1;
   -webkit-order: 1;
 }
