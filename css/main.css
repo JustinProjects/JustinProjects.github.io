@@ -61,7 +61,7 @@ body {
   padding: 0;
   text-align: center;
   background-color: #404040;
-  position: fixed;face
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -184,6 +184,34 @@ a.game {
 .unity2 {
   order: 2;
   -webkit-order: 2;
+}
+
+.soon {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.credit {
+  background-color: #404040;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#create {
+  color: rgb(213,214,196);
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 
