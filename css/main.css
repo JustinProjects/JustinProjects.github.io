@@ -106,12 +106,12 @@ h3 {
 
 .lin {
   order: 1;
-  -webkit-order: 1;
+  -webkit-order: 3;
 }
 
 .fb {
   order: 3;
-  -webkit-order: 3;
+  -webkit-order: 1;
 }
 
 #me {
