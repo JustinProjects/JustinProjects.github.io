@@ -88,21 +88,30 @@ h3 {
 .face-lockup {
   max-width: 780px;
   display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: row-reverse;
   margin: 0 auto;
   align-items: center;
+  -webkit-align-items: center;
   justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -o-justify-content: space-around;
 }
 
 .face {
   order: 2;
+  -webkit-order: 2;
 }
 
 .lin {
   order: 1;
+  -webkit-order: 1;
 }
 
 .fb {
   order: 3;
+  -webkit-order: 3;
 }
 
 #me {
