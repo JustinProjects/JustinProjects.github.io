@@ -229,3 +229,78 @@ a.game {
   font-family: sans-serif;
 }
 
+.contactForm {
+  max-width: 450px;
+  margin: 0 auto 50px;
+  font-family: sans-serif;
+}
+
+.contactForm .label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contactForm .span {
+  display: block;
+  margin-bottom: 10px;
+  color: #404040;
+}
+
+.contactForm .contactInfo .label{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.contactForm .contactInfo #label1 {
+  padding-right: 10px;
+}
+
+.contactForm .contactInfo #label2 {
+  padding-left: 10px;
+}
+
+.contactForm .input {
+  border: 3px solid #009900;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contactForm .text {
+  border: 3px solid #009900;
+  width: 100%;
+  box-sizing: border-box;
+  height: 12em;
+  font-size: 20px;
+}
+
+.contactForm .input:focus {
+  outline: none;
+  border: 3px solid #A6D785;
+}
+
+.contactForm #green-button {
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #009900;
+}
+
+.contactForm #green-button:hover {
+  background-color: #A6D785;
+  color: white;
+}
+
+.contact {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #404040;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+

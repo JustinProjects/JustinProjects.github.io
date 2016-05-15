@@ -11,6 +11,7 @@
 		<li><a href="index.html">Home</a></li>
 		<li><a href="#minion">About</a></li>
 		<li><a href="#guru">Projects</a></li>
+		<li><a href="#c">Contact</a></li>
 		<li><a href="Resume/NewResume.pdf" target="_blank">Resume</a></li>
 	</ul>
 
@@ -70,12 +71,25 @@
 </section>
 
 <footer class="footer">
-	<form action="https://formspree.io/justinprojects335@gmail.com"
+	<div class="contact"> Contact Me <a name="c"></a> </class></div>
+	<form class="contactForm" action="https://formspree.io/justinprojects335@gmail.com"
       method="POST">
-	    <input type="text" name="name">
-	    <input type="email" name="_replyto">
-	    <input type="submit" value="Send">
+      	<div class="contactInfo">
+    	<label class="label" id="label1"><span class="span">Your Name:</span>
+    	<input class="input" type="text" name="name" placeholder="example: Justin H. Kim"></label>
+
+		<label class="label" id="label2"><span class="span">Your Email:</span>
+    	<input class="input" type="email" name="_replyto" placeholder="example@example.com"></label>
+
+    	</div>
+
+	    <label class="label"><span class="span">Tell Me About Yourself:</span>
+	    <textarea class="text input" name="message" placeholder="comments"></textarea></label>
+
+	    <input class="input" id="green-button" type="submit" value="Send">
+	 </clas>
 	</form>
+
 	<ul class="credit">
 		<p id="create">Created By: Justin H. Kim // UC Berkeley Class of 2018</p>
 	</ul>
