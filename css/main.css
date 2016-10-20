@@ -178,12 +178,16 @@ a.game {
   -o-justify-content: space-around;
 }
 
-.unity {
+.tribute1 {
+  width: 50%;
+  height: auto;
   order: 1;
   -webkit-order: 1;
 }
 
-.unity2 {
+.tribute2 {
+  width: 50%;
+  height: auto;
   order: 2;
   -webkit-order: 2;
 }
