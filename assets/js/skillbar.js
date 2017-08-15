@@ -59,7 +59,7 @@
 	
 	CircularSkillBar.prototype = {
 		init: function() {
-			this.tick = 0;
+			this.tick = 1;
 			this.progress();
 			
 		},
